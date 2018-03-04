@@ -1,19 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Draggable, {DraggableCore} from 'react-draggable'; // Both at the same time
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+        <Draggable>
+          <div style={{
+            background: 'lightblue',
+            width: 200,
+            height: 200,
+            display: 'flex',
+            alignItems: 'center',
+            textAlign: 'center',
+          }}>I can now be moved around!</div>
+      </Draggable>
+    </div>
     );
   }
 }
