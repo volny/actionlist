@@ -1,31 +1,29 @@
 {
   "name": "actionlist",
   "version": "0.1.0",
+  "author": "Felix Volny <github@volny.co>",
+  "license": "MIT",
+  "description": "",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-draggable": "^3.0.5",
     "react-scripts": "1.1.1"
   },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "repository": {
+    "url": "git@github.com:volny/actionlist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/volny/actionlist/issues"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {
-    "eslint-plugin-react": "^7.7.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/volny/actionlist.git"
-  },
-  "author": "Felix Volny <github@volny.co>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/volny/actionlist/issues"
-  },
-  "homepage": "https://github.com/volny/actionlist#readme"
+  }
 }
+
